@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.add {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search, .top, .lower, .lower1, .weeklist {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #e0dddd;
+    border-radius: 5px;
+}
+
+.input {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.button, .icon {
+    cursor: pointer;
+}
+
+.img {
+    width: 50px;
+}
+
+.weeklist div {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.list {
+    background-color: #e6e5e5;
+}
+
+.TopGraph, .LowerGraph1, .LowerGraph2, .LowerGraph3 {
+    margin: 20px;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    height: 450px;
+}
