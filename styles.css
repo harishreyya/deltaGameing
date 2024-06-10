@@ -1,53 +1,82 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #47394f, #7889a6);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    overflow-y: auto;
 }
 
-.add {
+.container {
     text-align: center;
-    margin-top: 20px;
+    background: linear-gradient(to left, #828183, #425171);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    width: 90%;
+    max-width: 600px;
 }
 
-.search, .top, .lower, .lower1, .weeklist {
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #e0dddd;
-    border-radius: 5px;
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .input {
-    width: 80%;
+    width: 60%;
     padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
     margin-right: 10px;
 }
 
-.button, .icon {
-    cursor: pointer;
-}
-
-.img {
-    width: 50px;
-}
-
-.weeklist div {
-    display: inline-block;
-    text-align: center;
-    width: 100px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
+.button {
+    padding: 10px 20px;
+    background: #fff;
+    color: #6a11cb;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, color 0.3s;
 }
 
-.list {
-    background-color: #e6e5e5;
+.button:hover {
+    background: #6a11cb;
+    color: #fff;
 }
 
-.TopGraph, .LowerGraph1, .LowerGraph2, .LowerGraph3 {
-    margin: 20px;
+.top, .lower, .lower1 {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+     background: linear-gradient(to right, #f1edf4, #041635);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, p {
+    margin: 0;
+    padding: 5px 0;
 }
 
 iframe {
     width: 100%;
     border: none;
     height: 450px;
+    border-radius: 10px;
+    margin-top: 20px;
 }

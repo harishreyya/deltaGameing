@@ -58,7 +58,7 @@ const renderWeatherDetails = () => {
     const weatherDetailsHtml = `
         <div class="top">
             <h1>${Math.floor(temp - 273.15)} °C</h1>
-            <div class="timezone"><p>${name}  </p></div>
+            <div class="timezone"><p>${name}</p></div>
         </div>
         <div class="lower">
             <p>Pressure: <span>${pressure} hpa</span></p>
